@@ -1,14 +1,12 @@
 package com.jerry.MVC.coffee.controller;
 
-import com.jerry.MVC.coffee.Dto.CoffeeResponseDto;
+import com.jerry.Dto.CoffeeResponseDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/coffees")
+//@RestController
+//@RequestMapping("/coffees")
 public class SpringMvcOutboundCoffeeController {
     @GetMapping("/{coffee-id}")
     public ResponseEntity getCoffee(@PathVariable("coffee-id") long coffeeId) throws InterruptedException {

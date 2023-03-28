@@ -1,4 +1,4 @@
-package com.jerry.MVC.coffee.Dto;
+package com.jerry.Dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
